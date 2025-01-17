@@ -1,0 +1,68 @@
+#Contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#Contenedor div {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 5px;
+  border-color: black;
+}
+
+#Contenedor div button {
+  text-align: center;
+  border-radius: 10px;
+}
+#Contenedor div img:hover {
+  opacity: 50%;
+}
+
+#Contenedor div button:hover {
+  background-color: #4191c0;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+#Carrito {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#Carrito div {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 5px;
+  border-color: black;
+}
+
+#Carrito div button {
+  text-align: center;
+  border-radius: 10px;
+}
+#Carrito div img:hover {
+  opacity: 50%;
+}
+
+#Carrito div button:hover {
+  background-color: #4191c0;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}

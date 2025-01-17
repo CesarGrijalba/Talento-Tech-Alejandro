@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Alejandro Grijalba</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="perfil">
+      <div class="datos">
+        <h1>Alejandro Grijalba</h1>
+        <h2>Estudiante Fullstack Web Developer</h2>
+      </div>
+      <div class="foto">
+        <img src="./img/perfil.jpg" alt="Fotografia de Alejandro" />
+      </div>
+    </div>
+
+    <main class="container">
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <br /><br />
+        <p>
+          Soy estudiante de programación, apasionado por la tecnología y el
+          desarrollo de soluciones creativas a problemas del mundo real.
+          Actualmente, estoy adquiriendo habilidades en lenguajes como Python,
+          JavaScript y Java, y me interesa especialmente el desarrollo web, la
+          inteligencia artificial y la ciberseguridad. Disfruto enfrentando
+          desafíos de lógica y algoritmos, y siempre busco aprender nuevas
+          herramientas y tecnologías para mejorar mis conocimientos. Me motiva
+          la idea de contribuir a proyectos innovadores que puedan tener un
+          impacto positivo en la sociedad.
+        </p>
+        <br /><br />
+        <table>
+          <tr>
+            <td>Nombre completo:</td>
+            <td>Cesar Alejandro Grijalba Zuniga</td>
+          </tr>
+          <tr>
+            <td>Edad:</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>cesar.grijalba@correounivalle.edu.co</td>
+          </tr>
+          <tr>
+            <td>Teléfono:</td>
+            <td>+57 304 588 2947</td>
+          </tr>
+          <tr>
+            <td>Ciudad:</td>
+            <td>Cali, Valle del Cauca</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <section class="skills" id="habilidades">
+      <h2>Habilidades</h2>
+
+      <div class="skill-container">
+        <div class="card">
+          <img src="./img/html.png" alt="Logo html" />
+          <h3>HTML</h3>
+        </div>
+        <div class="card">
+          <img src="./img/css.svg" alt="Logo html" />
+          <h3>Css</h3>
+        </div>
+        <div class="card">
+          <img src="./img/javascript.png" alt="Logo html" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="card">
+          <img src="./img/swift.svg" alt="Logo html" />
+          <h3>Swift</h3>
+        </div>
+        <div class="card">
+          <img src="./img/cmas.png" alt="Logo html" />
+          <h3>C++</h3>
+        </div>
+        <div class="card">
+          <img src="./img/ruby.png" alt="Logo html" />
+          <h3>Ruby</h3>
+        </div>
+        <div class="card">
+          <img src="./img/java.png" alt="Logo html" />
+          <h3>Java</h3>
+        </div>
+        <div class="card">
+          <img src="./img/python.svg" alt="Logo html" />
+          <h3>Python</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <h2>Contáctame</h2>
+      <br /><br />
+      <p>✨ ¡Hablemos! ✨</p>
+      <p>
+        Si tienes preguntas, comentarios o simplemente quieres conectar, no
+        dudes en escribirme. Estoy aquí para ayudarte o colaborar contigo.
+      </p>
+
+      <div class="form-container">
+        <div class="form">
+          <form id="contactForm">
+            <div>
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" required />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+
+            <div>
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" required />
+            </div>
+
+            <div>
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

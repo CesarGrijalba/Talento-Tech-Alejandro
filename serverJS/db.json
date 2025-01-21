@@ -1,0 +1,68 @@
+{
+    "docentes": [
+      {
+        "nombre": "Jhonatan",
+        "apellido": "Giraldo",
+        "asignaturas": [
+          {
+            "nombre": "HTML"
+          },
+          {
+            "nombre": "CSS"
+          },
+          {
+            "nombre": "Node"
+          }
+        ]
+      },
+      {
+        "nombre": "Alejandro",
+        "apellido": "Grijalba",
+        "asignaturas": [
+          {
+            "nombre": "HTML"
+          },
+          {
+            "nombre": "CSS"
+          },
+          {
+            "nombre": "Node"
+          }
+        ]
+      }
+    ],
+  
+    "estudiantes": [
+      {
+        "nombre": "Alejandro",
+        "apellido": "Zuniga",
+        "promedio": "7.5"
+      },
+      {
+        "nombre": "Nikolas",
+        "apellido": "Zuniga",
+        "promedio": "7.5"
+      }
+    ],
+    "bootcamp": [
+      {
+        "nombre": "Fullstack",
+        "descripcion": "desarrollo web",
+        "duracion": "120 horas",
+        "nivel": "Basico"
+      },
+      {
+        "nombre": "Fullstack",
+        "descripcion": "desarrollo web",
+        "duracion": "120 horas",
+        "nivel": "Avanzado"
+      },
+      {
+        "nombre": "Inteligencia Artificial",
+        "descripcion": "Creacion de IA",
+        "duracion": "120 horas",
+        "nivel": "Basico"
+      }
+    ]
+  }
+  

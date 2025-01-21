@@ -1,8 +1,11 @@
-const express = require("express");
+import express from 'express'
+import path from 'path'
 
-const path = require("path");
+// const express = require("express");
 
-const iniciarServidor = (option) => {
+// const path = require("path");
+
+export const iniciarServidor = (option) => {
   const { port, public_path = "public" } = option;
   console.log(port);
   console.log(public_path);
@@ -21,4 +24,4 @@ const iniciarServidor = (option) => {
   });
 };
 
-module.exports = { iniciarServidor };
+// module.exports = { iniciarServidor };

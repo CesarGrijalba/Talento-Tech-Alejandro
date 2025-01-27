@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de tareas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+
+  <header>
+    <h1>Gestor de tareas</h1>
+  </header>
+
+  <body>
+    <button id="boton-agregar">Agregar tarea</button>
+
+    <!-- Ventana emergente -->
+    <div class="modal" id="modal">
+      <div class="contenido-modal">
+        <span class="cerrar" id="cerrarModal">&times;</span>
+        <h2>Crear nueva tarea</h2>
+        <input
+          type="text"
+          id="titulo"
+          placeholder="Título de la tarea"
+          required
+        />
+        <input
+          type="text"
+          id="descripcion"
+          placeholder="Descripción de la tarea"
+          required
+        />
+        <button id="btn-modal">Crear</button>
+      </div>
+    </div>
+    <!-- Contenedor para todas las tareas -->
+    <div id="tareas"></div>
+  </body>
+</html>
